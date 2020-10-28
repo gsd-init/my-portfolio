@@ -420,6 +420,20 @@
         font: 14px/1.9em 'librebaskerville-regular', sans-serif;
         width: 90%;
     }
+    #contact label {
+        right: 88px;
+        position: relative;
+    }
+    #contact input,
+    #contact textarea,
+    #contact select {
+        position: relative;
+        right: 90px;
+    }
+    #contact button.submit {
+        position: relative;
+        right: 88px;
+    }
     /* header social links */
     header .social {
         font-size: 20px;
