@@ -1,0 +1,14 @@
+[1008/164042.475:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\User\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\3ff4deb4-00ce-42b0-bda1-990f87d9a423: The system cannot find the path specified. (0x3)
+[1008/164042.495:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1012/104255.976:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1014/095133.370:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/152619.404:ERROR:process_info.cc(359)] UncheckedAllocate
+[1015/152619.453:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\User\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\0879412f-8217-4499-b6b4-c7df4003e22e: The system cannot find the path specified. (0x3)
+[1015/152623.079:ERROR:process_info.cc(359)] UncheckedAllocate
+[1015/191611.264:ERROR:process_info.cc(359)] UncheckedAllocate
+[1015/191611.315:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\User\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\ad6b5435-9fa9-45bd-a65d-63082e7f91a5: The system cannot find the path specified. (0x3)
+[1015/191611.358:ERROR:process_info.cc(359)] UncheckedAllocate
+[1015/191611.360:ERROR:process_info.cc(359)] UncheckedAllocate
+[1015/191611.414:ERROR:process_info.cc(359)] UncheckedAllocate
+[1015/191615.354:ERROR:file_io.cc(135)] WriteFile: The pipe is being closed. (0xE8)
+[1015/191615.354:ERROR:file_io.cc(135)] WriteFile: The pipe is being closed. (0xE8)

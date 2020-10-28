@@ -1,0 +1,128 @@
+{
+    "main": {
+        "name": "Gabriel Dias",
+        "description": "I am an ex-athlete, web developer looking for opportunities in the tech industry. I have been studying and programming for a year. This is my portfolio website, here you can get to know more about my self and the projects I have worked on.",
+        "image": "../images/profilePic$.jpeg",
+        "bio": "Strong motivation and work ethic achieved through a major academic performance, competitive college sport, and work experience.  It is time to challenge myself and dive to a new industry.",
+        "contactmessage": "Please, do not hesitate to get in touch. I am looking for opportunities in Web Development.",
+        "email": "gsdias22@gmail.com",
+        "phone": "778-682-3449",
+        "github": "https://github.com/gsd-init",
+        "coverLetter": "files/coverletterGDias.pdf",
+        "address": {
+            "city": "Vancouver",
+            "state": "BC",
+            "zip": "V6R1Z2"
+        },
+        "website": "#",
+        "resumedownload": "files/myTechResume.pdf",
+        "social": [{
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/gsd-init/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/gsd-init",
+                "className": "fa fa-github"
+            }
+        ]
+    },
+    "resume": {
+        "skillmessage": "Below are the technologies I have learnt by the moment.",
+        "education": [{
+                "school": "Troy University",
+                "degree": "Bachelors of Business Administration / Student-athlete",
+                "graduated": "December 2016",
+                "description": "The decision to go to college in US was quite challenging, move to another country not knowing the native language, the sport gave me the strenght to complete the mission...",
+                "businessSkills1": "- Major in Global Business",
+                "businessSkills2": "- Understanding complex factors within problems",
+                "businessSkills3": "- Complex analysis",
+                "businessSkills4": "- Big data analysis (Excel)"
+            },
+            {
+                "school": "CICCC Cornerstone International Community College of Canada",
+                "degree": "Web Development",
+                "graduated": "September 2021",
+                "description": "I had no background in coding before starting this course. The technology I liked the most during the program is React. Also, I learned during quarantine WordPress/PHP",
+                "techSkills1": "- HTML/CSS",
+                "techSkills2": "- JavaScript",
+                "techSkills3": "- React",
+                "techSkills4": "- WordPress",
+                "techSkills5": "- PHP"
+            }
+        ],
+        "work": [{
+                "company": "Project Larry Linton - Live Well With Parkinson Disease",
+                "title": "React JS ",
+                "years": "July - Sep 2020",
+                "description": "Group project built for a real client. 4 programmers + 1 designer."
+            },
+            {
+                "company": "Jericho Tennis Club",
+                "title": "Tennis coach/instructor",
+                "years": "November 2020 - Current",
+                "description": "Tennis lessons for all ages and levels."
+            }
+        ],
+        "skills": [{
+                "name": "HTML/CSS"
+            },
+            {
+                "name": "JavaScript"
+            },
+            {
+                "name": "React | Hooks | Context API | Rest API"
+            },
+            {
+                "name": "Bootstrap"
+            },
+            {
+                "name": "WordPress | PHP | Advanced Custom Fields "
+            },
+            {
+                "name": "Git"
+            },
+            {
+                "name": "Canva"
+            },
+            {
+                "name": "Filmora Video Editor"
+
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [{
+                "title": "Bikcraft",
+                "category": "WordPress website Bike Store - Advanced Custom Fields, SEO | 1 plugin",
+                "image": "bikcraft-img$.jpg",
+                "url": "https://mybikcraft1.000webhostapp.com/"
+            },
+            {
+                "title": "Larry Linton - Live Well With Parkinson Disease",
+                "category": "(offline now) Website to promote a book and connect with people that suffers with Parkinson disease ",
+                "image": "larry-img.png",
+                "url": "https://github.com/gsd-init/larry-project"
+            },
+            {
+                "title": "Rest",
+                "category": "WordPress website built for restaurants",
+                "image": "rest-img$.jpg",
+                "url": "https://myrest1.000webhostapp.com/"
+            },
+            {
+                "title": "My Portfolio",
+                "category": "A React simple one page portfolio website with carousel & custom buttons",
+                "image": "myPortfolioo.png",
+                "url": "https://github.com/gsd-init/reactPortfolioOnePage"
+            },
+            {
+                "title": "React Crypto Currency Search",
+                "category": "REST API - axios",
+                "image": "cryptoImg.png",
+                "url": "https://github.com/gsd-init/cryptoSearch"
+            }
+        ]
+    }
+}
