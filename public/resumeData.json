@@ -8,14 +8,14 @@
         "email": "gsdias22@gmail.com",
         "phone": "778-682-3449",
         "github": "https://github.com/gsd-init",
-        "coverLetter": "files/coverletterGDias.pdf",
+        "coverLetter": "files/coverletter-gdias.pdf",
         "address": {
             "city": "Vancouver",
             "state": "BC",
             "zip": "V6R1Z2"
         },
         "website": "#",
-        "resumedownload": "files/myTechResume.pdf",
+        "resumedownload": "files/my-techresume.pdf",
         "social": [{
                 "name": "linkedin",
                 "url": "https://www.linkedin.com/in/gsd-init/",
