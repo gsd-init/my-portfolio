@@ -46,15 +46,15 @@ class Contact extends Component {
                <input type="hidden" name="form-name" value="contactForm" />					        
                   <div>
 						   <label>Name <span className="required">*</span></label>
-						   <input type="text" size="35" id="contactName" name="name" onChange={this.handleChange}/>
+						   <input type="text" size="35" id="contactName" name="name" />
                   </div>
                   <div>
 						   <label>Email <span className="required">*</span></label>
-						   <input type="email" size="35" id="contactEmail" name="email" onChange={this.handleChange}/>
+						   <input type="email" size="35" id="contactEmail" name="email"/>
                   </div>
                   <div>
 						   <label>Subject</label>
-						   <input type="text" size="35" id="contactSubject" name="subject" onChange={this.handleChange}/>
+						   <input type="text" size="35" id="contactSubject" name="subject" />
                   </div>
                   <div>
                      <label>Message <span className="required">*</span></label>
