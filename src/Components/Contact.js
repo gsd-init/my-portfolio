@@ -46,23 +46,27 @@ class Contact extends Component {
                <input type="hidden" name="form-name" value="contactForm" />                               
 					<fieldset>        
                   <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
+						   <label>Name <span className="required">*</span>
 						   <input type="text" size="35" id="contactName" name="name" onChange={this.handleChange}/>
+                     </label>
                   </div>
 
                   <div>
-						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
+						   <label>Email <span className="required">*</span>
 						   <input type="email" size="35" id="contactEmail" name="email" onChange={this.handleChange}/>
+                     </label>
                   </div>
 
                   <div>
-						   <label htmlFor="contactSubject">Subject</label>
+						   <label>Subject
 						   <input type="text" size="35" id="contactSubject" name="subject" onChange={this.handleChange}/>
+                     </label>
                   </div>
 
                   <div>
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+                     <label>Message <span className="required">*</span>
                      <textarea cols="50" rows="15" id="contactMessage" name="message"></textarea>
+                     </label>
                   </div>
 
                   <div data-netlify-recaptcha="true"></div>
