@@ -43,11 +43,11 @@ class Contact extends Component {
             <div className="eight columns">
 
                <form action="" method="post" id="contactForm" name="contactForm"> 
-               <input type="hidden" name="form-name" value="contact" />
+               <input type="hidden" name="form-name" value="contactForm" />
 					<fieldset>
                   <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input value="contactForm" type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+						   <label htmlFor="contactName">Name Teste <span className="required">*</span></label>
+						   <input value="contactForm" type="text" defaultValue="" size="35" id="contactName" name="contactName" placeholder="test" onChange={this.handleChange}/>
                   </div>
 
                   <div>
