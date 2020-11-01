@@ -43,38 +43,27 @@ class Contact extends Component {
             <div className="eight columns">
 
                <form action="" method="POST" id="contactForm" name="contactForm"> 
-               <input type="hidden" name="form-name" value="contactForm" />                               
-					<fieldset>        
+               <input type="hidden" name="form-name" value="contactForm" />					        
                   <div>
-						   <label>Name <span className="required">*</span>
+						   <label>Name <span className="required">*</span></label>
 						   <input type="text" size="35" id="contactName" name="name" onChange={this.handleChange}/>
-                     </label>
                   </div>
-
                   <div>
-						   <label>Email <span className="required">*</span>
+						   <label>Email <span className="required">*</span></label>
 						   <input type="email" size="35" id="contactEmail" name="email" onChange={this.handleChange}/>
-                     </label>
                   </div>
-
                   <div>
-						   <label>Subject
+						   <label>Subject</label>
 						   <input type="text" size="35" id="contactSubject" name="subject" onChange={this.handleChange}/>
-                     </label>
                   </div>
-
                   <div>
-                     <label>Message <span className="required">*</span>
+                     <label>Message <span className="required">*</span></label>
                      <textarea cols="50" rows="15" id="contactMessage" name="message"></textarea>
-                     </label>
                   </div>
-
                   <div data-netlify-recaptcha="true"></div>
-
                   <div className="btn-submit">
                      <button type="submit" className="submit">Submit</button>
-                  </div>
-					</fieldset>
+                  </div>					
 				   </form>
 
            {/* <div id="message-warning"> Error boy</div>
