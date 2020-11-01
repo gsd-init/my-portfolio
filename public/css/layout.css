@@ -97,7 +97,8 @@ header .banner-text hr {
 
 /* header social links */
 
-header .social {
+
+/* header .social {
     margin: 24px 0;
     padding: 0;
     font-size: 30px;
@@ -111,7 +112,7 @@ header .social li {
 
 header .social li a {
     color: #fff;
-}
+} */
 
 header .social li a:hover {
     color: #0762f9;
@@ -1253,7 +1254,7 @@ footer .social-links li:first-child {
 }
 
 #go-top a:hover {
-    background-color: #0F9095;
+    background-color: #0762f9;
 }
 
 .social .btn:first-child {

@@ -100,6 +100,9 @@
     }
     #contact .section-head p.lead {
         font: 17px/33px opensans-light, sans-serif;
+        position: relative;
+        left: -19px;
+        line-height: 24px;
     }
 }
 
@@ -108,6 +111,12 @@
 ---------------------------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
+    /* new */
+    .row {
+        width: auto;
+        position: initial;
+    }
+    /* end new */
     .portfolio-item .item-wrap img {
         padding-left: 9%;
     }
@@ -327,7 +336,8 @@
     }
     #contact h1 span {
         display: block;
-        float: left;
+        right: 125px;
+        position: relative
     }
     #contact .header-col {
         padding-top: 0;
@@ -398,6 +408,13 @@
   -------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
+    /* new */
+    .row {
+        width: auto;
+        left: 85px;
+        position: initial;
+    }
+    /* new end */
     .portfolio-item .item-wrap img {
         padding: 0
     }
@@ -451,3 +468,155 @@
         margin-left: 14px;
     }
 }
+
+@media only screen and (max-width: 380px) {
+    a.mobile-btn {
+        display: none !important;
+    }
+    .portfolio-item .item-wrap img {
+        padding: 0
+    }
+    /* mobile navigation
+   -------------------------------------------------------------------- */
+    #nav-wrap ul#nav {
+        width: auto;
+        float: none;
+    }
+    /* header styles
+   -------------------------------------------------------------------- */
+    header .banner {
+        padding-top: 24px;
+    }
+    header .banner-text h1 {
+        font: 40px/1.1em 'opensans-bold', sans-serif;
+        margin: 0 auto 24px auto;
+    }
+    header .banner-text h3 {
+        font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+        width: 90%;
+    }
+    #contact label {
+        right: 128px;
+        position: relative;
+    }
+    #contact input,
+    #contact textarea,
+    #contact select {
+        position: relative;
+        right: 128px;
+    }
+    #contact button.submit {
+        position: relative;
+        right: 88px;
+    }
+    /* header social links */
+    header .social {
+        font-size: 20px;
+    }
+    header .social li {
+        margin: 0 6px;
+    }
+    /* footer
+   ------------------------------------------------------------------------ */
+    /* social links */
+    footer .social-links {
+        font-size: 20px;
+    }
+    footer .social-links li {
+        margin-left: 14px;
+    }
+}
+
+
+/* .row {
+        width: auto;
+        left: 85px;
+        position: initial;
+    }
+    a.mobile-btn {
+        display: none !important;
+    } */
+
+
+/* html { */
+
+
+/* margin: 0;
+        padding: 0;
+        position: absolute !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* left: 131px !important;
+        width: 100% !important; */
+
+
+/* width: 550px; */
+
+
+/* header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    */
+
+
+/* left: 21%; */
+
+
+/* right: 5%; */
+
+
+/* width: 550px; */
+
+
+/* } */
+
+
+/* 
+    #about {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 550px;
+    }
+    #resume {
+        position: relative;
+        align-items: center;
+        width: 550px;
+    }
+    #portfolio {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 550px;
+    }
+    #contact {
+        position: relative;
+        align-items: center;
+        width: 550px;
+    }
+    #go-top a {
+        position: relative;
+        left: 69px; */
+
+
+/* }
+    .social-links {
+        position: relative;
+        /* left: 77px; */
+
+
+/* } */
+
+
+/* #nav-wrap:not( :target)>a:first-of-type,
+    #nav-wrap:target>a:last-of-type {
+        display: none !important;
+    }
+    #contact p.lead {
+        display: none;
+    } */
+
+@media only screen and (max-width: 375px) {}
