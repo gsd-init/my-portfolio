@@ -47,17 +47,17 @@ class Contact extends Component {
                <input type="hidden" name="form-name" value="contactForm" />
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+						   <input type="text" size="35" id="contactName" name="name" onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="email" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+						   <input type="email" size="35" id="contactEmail" name="email" onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
+						   <input type="text" size="35" id="contactSubject" name="subject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
