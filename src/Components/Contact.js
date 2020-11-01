@@ -42,8 +42,9 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="POST" id="contactForm" name="contactForm" data-netlify="true"> 
-					<fieldset>
+               <form action="" method="POST" id="contactForm" name="contactForm">                                
+					<fieldset>                  
+               <input type="hidden" name="form-name" value="contactForm" />
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
 						   <input type="text" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
