@@ -42,8 +42,8 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="/contact" method="POST" id="contactForm" name="contactForm"> 
-               <input type="hidden" name="form-name" value="contactForm" />					        
+               <form action="/contact" method="post" id="contactForm" name="contact"> 
+               <input type="hidden" name="form-name" value="contact" />					        
                   <div>
 						   <label>Name <span className="required">*</span></label>
 						   <input type="text" size="35" id="contactName" name="name" />
