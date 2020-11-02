@@ -63,8 +63,20 @@ class Contact extends Component {
                   <div className="btn-submit">
                      <button type="submit" className="submit">Submit</button>
                   </div>					
-                  <button type="submit" className="submit">Submit</button>
 				   </form>
+
+               <form  name="contact" action="/contact" method="post">
+                  <input type="hidden" name="form-name" value="contact"/>
+                  <input required type="text" name="name" placeholder="your name" />
+                  <input required type="email" name="email" placeholder="your email" />
+                  <input type="text" name="subject" placeholder="subject" />
+                  <textarea name="message" cols="30" rows="10" placeholder="message"></textarea>
+                  <button type="submit">Submit</button>
+               </form>
+
+
+               
+               
 
            {/* <div id="message-warning"> Error boy</div>
 				   <div id="message-success">
