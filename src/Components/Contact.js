@@ -42,7 +42,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form name="contact" action="/contact" method="post" id="contactForm" > 
+               <form name="contact" action="/contact" method="post" id="contactForm" data-netlify="true"> 
                <input type="hidden" name="form-name" value="contact" />					        
                   <div>
 						   <label>Name <span className="required">*</span></label>
@@ -60,7 +60,6 @@ class Contact extends Component {
                      <label>Message <span className="required">*</span></label>
                      <textarea cols="50" rows="15"  name="message"></textarea>
                   </div>
-                  <div><div data-netlify-recaptcha="true"></div></div>
                   <div className="btn-submit">
                      <button type="submit" className="submit">Submit</button>
                   </div>					
