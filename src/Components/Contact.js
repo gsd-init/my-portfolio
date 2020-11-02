@@ -42,7 +42,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form name="contact" action="/contact" method="post" id="contactForm" data-netlify="true"> 
+               {/* <form name="contact" action="/contact" method="post" id="contactForm" data-netlify="true"> 
                <input type="hidden" name="form-name" value="contact" />					        
                   <div>
 						   <label>Name <span className="required">*</span></label>
@@ -58,30 +58,34 @@ class Contact extends Component {
                   </div>
                   <div>
                      <label>Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15"  name="message"></textarea>
+                     <textarea cols="50" rows="15" name="message"></textarea>
                   </div>
                   <div className="btn-submit">
                      <button type="submit" className="submit">Submit</button>
                   </div>					
-				   </form>
+				   </form> */}
 
                <form  name="contact" action="/contact" method="post">
                   <input type="hidden" name="form-name" value="contact"/>
-                  <input required type="text" name="name" placeholder="your name" />
-                  <input required type="email" name="email" placeholder="your email" />
-                  <input type="text" name="subject" placeholder="subject" />
-                  <textarea name="message" cols="30" rows="10" placeholder="message"></textarea>
-                  <button type="submit">Submit</button>
-               </form>
 
+                  <label>Name <span className="required">*</span></label>
+                  <input required type="text" name="name" />
 
-               
-               
+                  <label>Email <span className="required">*</span></label>
+                  <input required type="email" name="email" />
 
-           {/* <div id="message-warning"> Error boy</div>
-				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-				   </div> */}
+                  <label>Subject</label>
+                  <input type="text" name="subject"/>
+
+                  <label>Message <span className="required">*</span></label>
+                  <textarea name="message" cols="30" rows="10"></textarea>
+
+                  <div>
+                  <button className="submit" type="submit">Submit</button>
+                  </div>
+               </form>    
+
+         
            </div>
 
       </div>
