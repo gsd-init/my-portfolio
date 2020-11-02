@@ -42,23 +42,23 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="/contact" method="post" id="contactForm" name="contact"> 
+               <form name="contact" action="/contact" method="post" id="contactForm" > 
                <input type="hidden" name="form-name" value="contact" />					        
                   <div>
 						   <label>Name <span className="required">*</span></label>
-						   <input type="text" size="35" id="contactName" name="name" />
+						   <input type="text" size="35"  name="name" />
                   </div>
                   <div>
 						   <label>Email <span className="required">*</span></label>
-						   <input type="email" size="35" id="contactEmail" name="email"/>
+						   <input type="email" size="35"  name="email"/>
                   </div>
                   <div>
 						   <label>Subject</label>
-						   <input type="text" size="35" id="contactSubject" name="subject" />
+						   <input type="text" size="35"  name="subject" />
                   </div>
                   <div>
                      <label>Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="message"></textarea>
+                     <textarea cols="50" rows="15"  name="message"></textarea>
                   </div>
                   <div><div data-netlify-recaptcha="true"></div></div>
                   <div className="btn-submit">
